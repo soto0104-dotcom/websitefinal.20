@@ -1,18 +1,18 @@
 @font-face {
 font-family: 'ithornet';
-    src: url(.idea/fonts/Ithornët.ttf);
+    src: url(fonts/Ithornët.ttf);
 }
 @font-face {
     font-family:'skulls';
-    src: url(.idea/fonts/old_skull_hellron/Old_Skull_Hellron.ttf) ;
+    src: url(fonts/old_skull_hellron/Old_Skull_Hellron.ttf) ;
 }
 @font-face {
     font-family:'monospace-type';
-    src: url(.idea/fonts/MonospaceTypewriter.ttf) ;
+    src: url(fonts/MonospaceTypewriter.ttf) ;
 }
 @font-face {
     Font-family:'aesthetic';
-    src:url(.idea/fonts/evanescent.ttf) ;
+    src:url(fonts/evanescent.ttf) ;
 }
 body{
     background-color:#757B9C;
