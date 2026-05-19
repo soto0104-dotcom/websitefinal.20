@@ -1,121 +1,139 @@
 @font-face {
-font-family: 'ithornet';
+    font-family: 'ithornet';
     src: url(fonts/Ithornët.ttf);
 }
+
 @font-face {
-    font-family:'skulls';
+    font-family: 'skulls';
     src: url(fonts/old_skull_hellron/Old_Skull_Hellron.ttf) ;
 }
+
 @font-face {
-    font-family:'monospace-type';
+    font-family: 'monospace-type';
     src: url(fonts/MonospaceTypewriter.ttf) ;
 }
+
 @font-face {
-    Font-family:'aesthetic';
-    src:url(fonts/evanescent.ttf) ;
+    Font-family: 'aesthetic';
+    src: url(fonts/evanescent.ttf) ;
 }
-body{
-    background-color:#757B9C;
+
+body {
+    background-color: #757B9C;
 
 
 }
-.container{
+
+.container {
     display: flex;
     background-image: url("Artboard 1.png");
-    border:#23252E 3px solid;
-    padding:0;
-    margin:0;
+    border: #23252E 3px solid;
+    padding: 0;
+    margin: 0;
 
-    h1{
+    h1 {
         font-family: 'aesthetic';
-        font-size:70px;
+        font-size: 70px;
         text-align: left;
-        padding-top:0;
-        padding-left:10px;
+        padding-top: 0;
+        padding-left: 10px;
     }
-    h3{
+
+    h3 {
         font-family: 'monospace-type';
-        font-size:20px;
-        padding-top:0;
-        padding-left:10px;
+        font-size: 20px;
+        padding-top: 0;
+        padding-left: 10px;
     }
-    nav{
+
+    nav {
         font-family: 'monospace-type';
         align-content: end;
-        color:black;
-        padding-left:400px;
-        padding-bottom:20px;
-a{
+        color: black;
+        padding-left: 400px;
+        padding-bottom: 20px;
 
-    text-decoration:none;
-    color:black;
+        a {
 
-    &:hover{
-        background-color:black;
-        color:white;
-        text-decoration:underline;
-    }
-}
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                background-color: black;
+                color: white;
+                text-decoration: underline;
+            }
+        }
     }
 }
 
 .imagebreak {
     display: flex;
     background-image: url("Artboard 2.png");
-    height:60px;
+    height: 60px;
 
 }
-.Aboutme{
-    font-family:'Monospace-typewriter';
-    display:flex;
+
+.Aboutme {
+    font-family: 'Monospace-typewriter';
+    display: flex;
     flex-direction: row;
 
-    font-size:30px;
-    .text{
-        width:50%;
-        h3{
+    font-size: 30px;
+
+    .text {
+        width: 50%;
+
+        h3 {
             font-family: 'monospace-type';
-            text-decoration:underline;
+            text-decoration: underline;
         }
-        p{
+
+        p {
             font-family: 'monospace-type';
-            font-size:12px
+            font-size: 12px
         }
 
 
     }
-    .picture{
+
+    .picture {
         background-image: url("Artboard 2.png");
         align-content: center;
-padding-top:5px;
-        padding-left:5px;
-        width:43%;
-        border:#23252E 3px solid;
+        padding-top: 5px;
+        padding-left: 5px;
+        width: 43%;
+        border: #23252E 3px solid;
     }
 
 }
-.rec{
-    h2{
-        font-family:'monospace-type';
-    }
-    align-content: center;
-    font-family:'monospace';
-}
-.footer{
-    border-top: #23252E 20px solid;
-    font-size:20px;
-    background-image: url("Artboard 1.png");
-    h3{
+
+.rec {
+    h2 {
         font-family: 'monospace-type';
     }
+
+    align-content: center;
+    font-family: 'monospace';
+}
+
+.footer {
+    border-top: #23252E 20px solid;
+    font-size: 20px;
+    background-image: url("Artboard 1.png");
+
+    h3 {
+        font-family: 'monospace-type';
+    }
+
     a {
         font-family: 'monospace-type';
-        text-decoration:none;
-        color:black;
+        text-decoration: none;
+        color: black;
 
-        &:hover{
-            background-color:black;
-            color:white;
+        &:hover {
+            background-color: black;
+            color: white;
         }
     }
 }
@@ -276,22 +294,26 @@ padding-top:5px;
 
 /*MOVIE STARTS HERE*/
 
-.movie-container{
-    background-image:url("moviebg.png");
-    h2{
-        font-size:30px;
+.movie-container {
+    background-image: url("moviebg.png");
+
+    h2 {
+        font-size: 30px;
         text-align: right;
         font-family: 'monospace-type';
-        padding-right:10px;
+        padding-right: 10px;
     }
-    .movieposters{
-        h3{
+
+    .movieposters {
+        h3 {
             font-family: 'monospace-type';
-            font-size:20px;
+            font-size: 20px;
         }
-        p{
+
+        p {
             font-family: 'monospace-type';
         }
+
         display: flex;
         flex-direction: row;
 
@@ -343,7 +365,7 @@ padding-top:5px;
                 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
             }
 
-            .jenn-container{
+            .jenn-container {
                 padding: 5px;
 
             }
@@ -388,6 +410,7 @@ padding-top:5px;
 
 
         }
+
         .gi {
             margin-top: 20px;
             background-color: #23252E;
@@ -404,7 +427,7 @@ padding-top:5px;
                 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
             }
 
-            .gi-container{
+            .gi-container {
                 padding: 5px;
 
             }
@@ -419,21 +442,23 @@ padding-top:5px;
 
         }
     }
-    .upcoming{
-        h2{
-            font-size:30px;
-            text-align: left;
-            margin-left:10px;
-        }
-        iframe{
 
-            margin-left:100px;
+    .upcoming {
+        h2 {
+            font-size: 30px;
+            text-align: left;
+            margin-left: 10px;
+        }
+
+        iframe {
+
+            margin-left: 100px;
         }
     }
 
-    .motw{
-        h2{
-            font-size:30px;
+    .motw {
+        h2 {
+            font-size: 30px;
             text-align: center;
         }
 
@@ -442,7 +467,7 @@ padding-top:5px;
             margin-top: 20px;
             background-color: #757B9C;
             display: block;
-           margin-left:450px;
+            margin-left: 450px;
             width: 600px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             transition: 0.3s;
@@ -451,7 +476,8 @@ padding-top:5px;
                 text-align: center;
                 font-family: 'monospace-type';
             }
-            p{
+
+            p {
                 font-family: 'monospace-type';
             }
 
@@ -463,12 +489,11 @@ padding-top:5px;
                 padding: 5px;
 
             }
+
             iframe {
-                margin-top:10px;
+                margin-top: 10px;
                 margin-left: 20px;
             }
-
-
 
 
         }
