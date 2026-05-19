@@ -1,0 +1,478 @@
+@font-face {
+font-family: 'ithornet';
+    src: url(.idea/fonts/Ithornët.ttf);
+}
+@font-face {
+    font-family:'skulls';
+    src: url(.idea/fonts/old_skull_hellron/Old_Skull_Hellron.ttf) ;
+}
+@font-face {
+    font-family:'monospace-type';
+    src: url(.idea/fonts/MonospaceTypewriter.ttf) ;
+}
+@font-face {
+    Font-family:'aesthetic';
+    src:url(.idea/fonts/evanescent.ttf) ;
+}
+body{
+    background-color:#757B9C;
+
+
+}
+.container{
+    display: flex;
+    background-image: url("Artboard 1.png");
+    border:#23252E 3px solid;
+    padding:0;
+    margin:0;
+
+    h1{
+        font-family: 'aesthetic';
+        font-size:70px;
+        text-align: left;
+        padding-top:0;
+        padding-left:10px;
+    }
+    h3{
+        font-family: 'monospace-type';
+        font-size:20px;
+        padding-top:0;
+        padding-left:10px;
+    }
+    nav{
+        font-family: 'monospace-type';
+        align-content: end;
+        color:black;
+        padding-left:400px;
+        padding-bottom:20px;
+a{
+
+    text-decoration:none;
+    color:black;
+
+    &:hover{
+        background-color:black;
+        color:white;
+        text-decoration:underline;
+    }
+}
+    }
+}
+
+.imagebreak {
+    display: flex;
+    background-image: url("Artboard 2.png");
+    height:60px;
+
+}
+.Aboutme{
+    font-family:'Monospace-typewriter';
+    display:flex;
+    flex-direction: row;
+
+    font-size:30px;
+    .text{
+        width:50%;
+        h3{
+            font-family: 'monospace-type';
+            text-decoration:underline;
+        }
+        p{
+            font-family: 'monospace-type';
+            font-size:12px
+        }
+
+
+    }
+    .picture{
+        background-image: url("Artboard 2.png");
+        align-content: center;
+padding-top:5px;
+        padding-left:5px;
+        width:43%;
+        border:#23252E 3px solid;
+    }
+
+}
+.rec{
+    h2{
+        font-family:'monospace-type';
+    }
+    align-content: center;
+    font-family:'monospace';
+}
+.footer{
+    border-top: #23252E 20px solid;
+    font-size:20px;
+    background-image: url("Artboard 1.png");
+    h3{
+        font-family: 'monospace-type';
+    }
+    a {
+        font-family: 'monospace-type';
+        text-decoration:none;
+        color:black;
+
+        &:hover{
+            background-color:black;
+            color:white;
+        }
+    }
+}
+
+/*MUSIC BEGINS HERE*/
+.music {
+    background-image: url("musicbg.png");
+    background-repeat: repeat;
+
+
+    .albums {
+        h2 {
+            font-family: 'monospace-type';
+            font-size: 30px;
+        }
+
+        h3 {
+            font-family: 'monospace-type';
+            font-size: 20px;
+        }
+
+        display: flex;
+        flex-direction: row;
+
+        .cure {
+            margin-top: 20px;
+            background-color: #757B9C;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .cure:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .cure-container {
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+
+        .soad {
+            margin-top: 20px;
+            background-color: #23252E;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .soad:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .soad-container {
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+
+        .panic {
+            margin-top: 20px;
+            background-color: #757B9C;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .panic:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .panic-container {
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+
+        .smiths {
+            margin-top: 20px;
+            background-color: #23252E;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .smiths:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .smiths-container {
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+
+
+    }
+
+    .audio-files {
+
+        float: right;
+    }
+}
+
+
+/*MOVIE STARTS HERE*/
+
+.movie-container{
+    background-image:url("moviebg.png");
+    h2{
+        font-size:30px;
+        text-align: right;
+        font-family: 'monospace-type';
+        padding-right:10px;
+    }
+    .movieposters{
+        h3{
+            font-family: 'monospace-type';
+            font-size:20px;
+        }
+        p{
+            font-family: 'monospace-type';
+        }
+        display: flex;
+        flex-direction: row;
+
+        .frank {
+            margin-top: 20px;
+            background-color: #757B9C;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .frank:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .frank-container {
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+
+
+        .jenn {
+            margin-top: 20px;
+            background-color: #23252E;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .jenn:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .jenn-container{
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+
+        .pearl {
+            margin-top: 20px;
+            background-color: #757B9C;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .pearl:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .Pearl-container {
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+        .gi {
+            margin-top: 20px;
+            background-color: #23252E;
+            display: block;
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+            }
+
+            .gi:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .gi-container{
+                padding: 5px;
+
+            }
+
+            img {
+                margin-left: 40px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+        }
+    }
+    .upcoming{
+        h2{
+            font-size:30px;
+            text-align: left;
+            margin-left:10px;
+        }
+        iframe{
+
+            margin-left:100px;
+        }
+    }
+
+    .motw{
+        h2{
+            font-size:30px;
+            text-align: center;
+        }
+
+        .hero {
+
+            margin-top: 20px;
+            background-color: #757B9C;
+            display: block;
+           margin-left:450px;
+            width: 600px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+
+            h3 {
+                text-align: center;
+                font-family: 'monospace-type';
+            }
+            p{
+                font-family: 'monospace-type';
+            }
+
+            .hero:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .hero-container {
+                padding: 5px;
+
+            }
+            iframe {
+                margin-top:10px;
+                margin-left: 20px;
+            }
+
+
+
+
+        }
+
+    }
+
+}
